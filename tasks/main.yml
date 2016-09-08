@@ -1,0 +1,5 @@
+---
+- name: install python-passlib
+  with_items:
+    - python-passlib
+  package: name={{item}} state=present
