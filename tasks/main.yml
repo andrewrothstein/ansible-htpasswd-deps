@@ -1,5 +1,7 @@
 ---
 - name: install python-passlib
+  become: yes
+  become_user: root
   with_items:
     - python-passlib
   package: name={{item}} state=present
