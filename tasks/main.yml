@@ -4,4 +4,6 @@
   become_user: root
   with_items:
     - python-passlib
-  package: name={{item}} state=present
+  package:
+    name: '{{item}}'
+    state: present
