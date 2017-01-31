@@ -9,17 +9,15 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 7
+        - all
     - name: Fedora
       versions:
-        - 23
-        - 24
-        - 25
+        - all
     - name: Ubuntu
       versions:
-        - xenial
+        - all
   galaxy_tags:
-    - development
+    - htpasswd
 
 dependencies:
   - role: andrewrothstein.epel
