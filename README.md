@@ -1,5 +1,6 @@
 andrewrothstein.htpasswd-deps
 =============================
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-htpasswd-deps.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-htpasswd-deps)
 
 Dependencies required for the Ansible htpasswd module.
 
