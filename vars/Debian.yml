@@ -1,4 +1,0 @@
----
-htpasswd_deps_pkgs:
-  - python-passlib
-  - python-bcrypt
